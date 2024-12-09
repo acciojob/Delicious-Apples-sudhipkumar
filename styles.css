@@ -1,1 +1,124 @@
 /* your code here */
+body {
+  background-color: #10e37f;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.photo-main {
+  background-color: #a4df26;
+  border-top-right-radius: 11px;
+  border-top-left-radius: 11px;
+}
+
+.photo-main img {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  left: -70px;
+}
+
+.title h1 {
+  color: rgb(62, 60, 60);
+}
+
+.controls {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.photo-album {
+  padding: 11px 0px;
+  border-bottom-right-radius: 11px;
+  border-bottom-left-radius: 11px;
+  background-color: white;
+}
+
+.photo-album ul {
+  list-style-type: none;
+  display: flex;
+  gap: 4px;
+  cursor: pointer;
+  margin: 0px;
+}
+
+.photo-album ul li img {
+  border: 1px solid silver;
+  border-radius: 2px;
+  padding: 2px;
+}
+
+.product {
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.201);
+  display: flex;
+  padding: 24px;
+}
+
+.product__info .title span {
+  color: silver;
+}
+
+.product__info .price {
+  color: rgb(234, 54, 54);
+  font-size: 2em;
+}
+
+.price span {
+  font-size: 2.5em;
+}
+
+h3 {
+  color: silver;
+}
+
+.variant ul {
+  display: flex;
+  gap: 7px;
+}
+
+.variant ul li {
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.variant .img-1 {
+  border: 2px solid silver;
+  border-radius: 2px;
+  padding: 3px;
+}
+
+.description ul {
+  line-height: 18px;
+  letter-spacing: 1px;
+  color: rgb(51, 51, 51);
+}
+
+.btn {
+  background-color: rgb(234, 54, 54);
+  color: white;
+  padding: 15px 29px;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1.2em;
+  letter-spacing: 1px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.product__photo {
+  position: relative;
+  left: -60px;
+  border-radius: 11px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.201);
+}
